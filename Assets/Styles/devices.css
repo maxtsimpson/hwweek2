@@ -1,0 +1,19 @@
+@media screen and (max-width: 640px){
+    
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 980px){
+    .about-me-thumbnail{
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    #thumb{
+        max-height: 200px;
+        max-width: 200px;
+    }
+}
