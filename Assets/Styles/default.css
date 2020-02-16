@@ -6,3 +6,11 @@
 footer p {
     color: white;
 }
+
+body {
+    background-color: grey;
+}
+
+.navbar-brand{
+    background-color: green;
+}
