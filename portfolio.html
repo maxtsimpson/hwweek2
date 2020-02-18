@@ -13,7 +13,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-dark navbar-static-top flex-column flex-md-row">
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-dark fixed-top flex-column flex-md-row">
         <a class="navbar-brand ml-5 px-4" href="#">Max Simpson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,48 +35,56 @@
         </div>
     </nav>
 
-    <main class="container mx-auto my-2">
+    <main class="container mx-auto mt-2">
         <div class="row bg-light p-2">
             <div class="col-12">
                 <h1 class="card-title border-bottom col-12">Portfolio</h1>
             </div>
         </div>
-        <div class="row bg-light p-2 card-deck">
-            <div class="col-lg-6 col-12 my-2">
-                <img class="card-img" src="./Assets/Images/pre-work.jpg" alt="Card image">
-                <div class="card-img-overlay">
-                    <a href="https://maxtsimpson.github.io/prework-about-me/">Prework About me</a>
+        <div class="row bg-light card-deck p-2">
+            <div class="col-lg-6 col-12 card">
+                <div class="card-body">
+                    <img class="card-img" src="./Assets/Images/pre-work.jpg" alt="Prework">
+                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
+                        <h5 class="card-title text-white">Prework</h5>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 my-2">
-                <!-- set a background image on the div -->
-                <!-- add another div with a background colour and either use display inline or z index -->
-                <div class="card-img-overlay">
-                    <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Card image">
-                    <a href="https://maxtsimpson.github.io/hwweek1/" class=""><h3 class="text-center">Homework week 1</h3></a>
+            <div class="col-lg-6 col-12 card">
+                <div class="card-body">
+                    <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Homework Week 1">
+                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
+                        <h5 class="card-title text-white">Homework Week 1</h5>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 my-2">
-                <!-- <img class="card-img" src="./Assets/Images/hw2.jpg" alt="Card image"> -->
-                <div class="card-img-overlay">
-                    <a href="https://maxtsimpson.github.io/hwweek2/">
-                        <!-- <h2 class="text-center">Homework week 2</h2> -->
-                        <img class="card-img" src="./Assets/Images/hw2.jpg" alt="Card image">
-                    </a>
+            <div class="col-lg-6 col-12 card">
+                <div class="card-body">
+                    <img class="card-img" src="./Assets/Images/hw2.jpg" alt="Homework Week 2">
+                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
+                        <h5 class="card-title text-white">Homework Week 2</h5>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12">
-                column 4
+            <div class="col-lg-6 col-12 card">
+                <div class="card-body">
+                    <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Future Project 1">
+                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
+                        <h5 class="card-title text-white">Future Project 1</h5>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 col-12">
-                <a href="https://maxtsimpson.github.io/hwweek2/">
-                    <h2 class="text-center">Homework week 2</h2>
-                    <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Card image">
-                </a>
+            <div class="col-lg-6 col-12 card">
+                <div class="card-body">
+                    <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Future Project 2">
+                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
+                        <h5 class="card-title text-white">Future Project 2</h5>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row fixed-bottom static-bottom my-4">
-            <div class="col-12">
+        <div class="row static-bottom">
+            <div class="col-12 p-0">
                 <footer class="text-center bg-dark">
                     <p>Copyright</p>
                 </footer>
