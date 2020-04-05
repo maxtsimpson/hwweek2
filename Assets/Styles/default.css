@@ -11,28 +11,34 @@ footer p {
     padding-bottom: 1vh;
 }
 
-body {
+/* body {
     background-color: grey;
     padding-top: 15vh;
-}
+} */
 
-.navbar-brand{
+/* .navbar-brand{
     background-color: green;
-}
+} */
+
 
 .card-img {
     width: 100%;
+    height: auto;
+    padding-bottom: 2%;
+    border-radius: 0;
 }
-
-.navbar, .card, .card-body {
+/* style="height: 200px; width: 100%; display: block;"  */
+/* .navbar, .card, .card-body {
     padding: 0;
-}
+} */
 
 .card {
     min-width: 30vw;
     min-height: 30vh;
+    width: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
+
 }
 
 img {

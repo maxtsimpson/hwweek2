@@ -1,87 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/materia/bootstrap.min.css" rel="stylesheet" integrity="sha384-1tymk6x9Y5K+OF0tlmG2fDRcn67QGzBkiM3IgtJ3VrtGrIi5ryhHjKjeeS60f1FA" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./Assets/Styles/default.css">
     <link rel="stylesheet" type="text/css" href="./Assets/Styles/devices.css">
     <title>Portfolio</title>
 </head>
+
+<nav
+    class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-dark sticky-top flex-column flex-md-row p-1">
+    <a class="navbar-brand ml-5 px-4" href="#">Max Simpson</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li>
+                <a class="nav-link p-2 h5" href="index.html">About</a>
+            </li>
+            <li>
+                <a class="nav-link p-2 h5" href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+                <a class="nav-link p-2 h5" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-dark fixed-top flex-column flex-md-row">
-        <a class="navbar-brand ml-5 px-4" href="#">Max Simpson</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li>
-                    <a class="nav-link p-2" href="index.html">About</a>
-                </li>
-                <li>
-                    <a class="nav-link p-2" href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a class="nav-link p-2" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container mt-2">
-        <div class="row bg-light p-2">
+    <div class="container-fluid w-75 is-primary">
+        <div class="row p-2">
             <div class="col-12">
-                <h1 class="card-title border-bottom col-12">Portfolio</h1>
+                <h1 class="card-title border-bottom">Portfolio</h1>
             </div>
         </div>
-        <div class="row bg-light p-2">
-            <div class="col-lg-6 col-12 card">
-                <div class="card-body">
-                    <img class="card-img" src="./Assets/Images/pre-work.jpg" alt="Prework">
-                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
-                        <h5 class="card-title text-white">Prework</h5>
+        <div class="row p-2">
+                <div class="col-lg-6 col-12">
+                    <div class="card">
+                        <h3 class="card-header"><a href="https://github.com/maxtsimpson/coronaCrash">Corona Crash</a></h3>
+                        <div class="card-body p-4">
+                            <h6 class="card-subtitle text-muted">A project to view the impact of the corona virus on stock markets around the world</h6>
+                        </div>
+                        <img class="card-img" src="Assets/Images/coronaCrash.png" alt="Card image">
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-12 card">
-                <div class="card-body">
-                    <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Homework Week 1">
-                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
-                        <h5 class="card-title text-white">Homework Week 1</h5>
+                <div class="col-lg-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- <img class="card-img" src="./Assets/Images/pre-work.jpg" alt="Prework"> -->
+                            <div
+                                class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
+                                <h5 class="card-title text-white">Prework</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-12 card">
-                <div class="card-body">
-                    <img class="card-img" src="./Assets/Images/hw2.jpg" alt="Homework Week 2">
-                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
-                        <h5 class="card-title text-white">Homework Week 2</h5>
+                <div class="col-lg-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Homework Week 1"> -->
+                            <div
+                                class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
+                                <h5 class="card-title text-white">Homework Week 1</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-12 card">
-                <div class="card-body">
-                    <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Future Project 1">
-                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
-                        <h5 class="card-title text-white">Future Project 1</h5>
+                <div class="col-lg-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- <img class="card-img" src="./Assets/Images/hw2.jpg" alt="Homework Week 2"> -->
+                            <div
+                                class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
+                                <h5 class="card-title text-white">Homework Week 2</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-12 card">
-                <div class="card-body">
-                    <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Future Project 2">
-                    <div class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
-                        <h5 class="card-title text-white">Future Project 2</h5>
+                <div class="col-lg-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- <img class="card-img" src="./Assets/Images/hw1.jpg" alt="Future Project 1"> -->
+                            <div
+                                class="card-img-overlay bg-dark h-25 d-flex align-content-center mb-auto mt-auto justify-content-center">
+                                <h5 class="card-title text-white">Future Project 1</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     <div class="row static-bottom mt-2">
@@ -91,5 +106,15 @@
             </footer>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
