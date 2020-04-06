@@ -11,6 +11,9 @@ footer p {
     padding-bottom: 1vh;
 }
 
+p,label {
+    font-size: large;
+}
 /* body {
     background-color: grey;
     padding-top: 15vh;
@@ -41,14 +44,23 @@ footer p {
     width: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
+    height: 95%;
 
 }
 
-img {
+#thumb{
+    max-height: 400px;
+    max-width: 500px;
+    height: 400px;
+    width: auto;
+    border-radius: 100%;
+}
+
+/* img {
     height: 100%;
     width: auto;
     /* max-width: 400px; */
-}
+} */
 /* .card-img,.card-body,.card-img-overlay {
     margin-left: 1vw;
     margin-right: 1vw;
