@@ -1,8 +1,3 @@
-/* #thumb{
-    max-height: 30%;
-    max-width: 30%;
-} */
-
 footer p {
     color: white;
     height: 100%;
@@ -11,17 +6,14 @@ footer p {
     padding-bottom: 1vh;
 }
 
-p,label {
+p,label,a {
     font-size: large;
 }
-/* body {
-    background-color: grey;
-    padding-top: 15vh;
-} */
 
-/* .navbar-brand{
-    background-color: green;
-} */
+.pg-link {
+    margin: 10% 0 10% 0;
+}
+
 .icon {
     width: 32px;
     height: 32px;
@@ -33,10 +25,6 @@ p,label {
     padding-bottom: 2%;
     border-radius: 0;
 }
-/* style="height: 200px; width: 100%; display: block;"  */
-/* .navbar, .card, .card-body {
-    padding: 0;
-} */
 
 .card {
     min-width: 30vw;
@@ -53,15 +41,12 @@ p,label {
     max-width: 500px;
     height: 400px;
     width: auto;
-    border-radius: 100%;
+    border-radius: 15%;
 }
 
-/* img {
-    height: 100%;
-    width: auto;
-    /* max-width: 400px; */
-} */
-/* .card-img,.card-body,.card-img-overlay {
-    margin-left: 1vw;
-    margin-right: 1vw;
-} */
+#link-card {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height:auto;
+}
